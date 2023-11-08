@@ -1,0 +1,126 @@
+.navbar {
+    height: 4.5rem;
+    background: linear-gradient(54deg, #ff5733 25%, #125875 25%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-elements {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 100%;
+    color: white;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    /* background-color: #e94d29; */
+    height: 100%;
+    gap: 1rem;
+}
+
+.social-link {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.contact-details {
+    display: flex;
+    align-items: center;
+    /* background-color: rgb(0, 81, 128); */
+    gap: 1rem;
+}
+
+.contact-details p {
+    margin: 0;
+}
+
+/* Style for email icon */
+.email-icon {
+    width: 24px;
+    /* Adjust the width as needed */
+    height: 24px;
+    /* Adjust the height as needed */
+    fill: #fff;
+    /* Change the fill color */
+}
+
+/* Style for phone icon */
+.phone-icon {
+    width: 24px;
+    /* Adjust the width as needed */
+    height: 24px;
+    /* Adjust the height as needed */
+    fill: #fff;
+    /* Change the fill color */
+}
+
+.email-container,
+.phone-container {
+    display: inline-flex;
+    /* Change from "flex" to "inline-flex" */
+    align-items: center;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.second-navbar {
+    height: 4.5rem;
+    /* background-color: #444; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-navbar-elements {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 80px;
+    /* Adjust the size as needed */
+}
+
+.nav-links {
+    display: flex;
+    height: 100%;
+
+}
+
+.nav-link {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+}
+
+.admission-button {
+    display: flex;
+    align-items: center;
+    background-color: #ff5733;
+    /* Customize the button color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.admission-button:hover {
+    background-color: #e94d29;
+    /* Change the button color on hover */
+    cursor: pointer;
+}
